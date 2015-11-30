@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Classes\Common\FKCommon.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\StringConvert.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestScene.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestListControllerLayer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Classes\SubTestScene\ColorSprite\ColorSprite.cpp">
+      <Filter>SubEffect\ColorSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\Emboss\EmbossSprite.cpp">
+      <Filter>SubEffect\EmbossSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\RemoveBKSprite\RemoveBKSprite.cpp">
+      <Filter>SubEffect\RemoveBkSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\RenderTexture\RenderTexture.cpp">
+      <Filter>SubEffect\RenderTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\Ripple\RippleGrid3D.cpp">
+      <Filter>SubEffect\RippleGrid3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\Ripple\RippleScene.cpp">
+      <Filter>SubEffect\RippleGrid3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\RippleSprite\RippleSprite.cpp">
+      <Filter>SubEffect\RippleSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\ShaderNode\ShaderNode.cpp">
+      <Filter>SubEffect\WaveSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\WaterWave\WaterWave.cpp">
+      <Filter>SubEffect\WaterWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\SpotLight\SpotLight.cpp">
+      <Filter>SubEffect\SpotLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\ActiveGrass\ActiveGrass.cpp">
+      <Filter>SubEffect\ActiveGrass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\ScratchOff\ScratchOff.cpp">
+      <Filter>SubEffect\ScratchOff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\LaserLine\LaserLine.cpp">
+      <Filter>SubEffect\LaserLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\SuckAction\SuckAction.cpp">
+      <Filter>SubEffect\SuckAction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\LabelShuffleTile\LabelShuffleTile.cpp">
+      <Filter>SubEffect\LabelShuffleTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\BlurTexture\Texture2DMutable.cpp">
+      <Filter>SubEffect\BlurTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\BlurTexture\AWTextureFilter.cpp">
+      <Filter>SubEffect\BlurTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\BlurTexture\BlurTextureScene.cpp">
+      <Filter>SubEffect\BlurTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\ImageProcess\ImageProcess.cpp">
+      <Filter>SubEffect\ImageProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\Distort\Distort.cpp">
+      <Filter>SubEffect\Distort[bug]</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SubTestScene\Wave1D\Wave1D.cpp">
+      <Filter>SubEffect\Wave1D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\Common\FKCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\StringConvert.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestScene.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestListControllerLayer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resource.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalMacro.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\ColorSprite\ColorSprite.h">
+      <Filter>SubEffect\ColorSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\Emboss\EmbossSprite.h">
+      <Filter>SubEffect\EmbossSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\RemoveBKSprite\RemoveBKSprite.h">
+      <Filter>SubEffect\RemoveBkSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\RenderTexture\RenderTexture.h">
+      <Filter>SubEffect\RenderTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\Ripple\RippleGrid3D.h">
+      <Filter>SubEffect\RippleGrid3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\Ripple\RippleScene.h">
+      <Filter>SubEffect\RippleGrid3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\RippleSprite\RippleSprite.h">
+      <Filter>SubEffect\RippleSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\ShaderNode\ShaderNode.h">
+      <Filter>SubEffect\WaveSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\WaterWave\WaterWave.h">
+      <Filter>SubEffect\WaterWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\SpotLight\SpotLight.h">
+      <Filter>SubEffect\SpotLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\ActiveGrass\ActiveGrass.h">
+      <Filter>SubEffect\ActiveGrass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\ScratchOff\ScratchOff.h">
+      <Filter>SubEffect\ScratchOff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\LaserLine\LaserLine.h">
+      <Filter>SubEffect\LaserLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\SuckAction\SuckAction.h">
+      <Filter>SubEffect\SuckAction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\LabelShuffleTile\LabelShuffleTile.h">
+      <Filter>SubEffect\LabelShuffleTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\BlurTexture\Texture2DMutable.h">
+      <Filter>SubEffect\BlurTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\BlurTexture\AWTextureFilter.h">
+      <Filter>SubEffect\BlurTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\BlurTexture\BlurTextureScene.h">
+      <Filter>SubEffect\BlurTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\ImageProcess\ImageProcess.h">
+      <Filter>SubEffect\ImageProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\Distort\Distort.h">
+      <Filter>SubEffect\Distort[bug]</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestScene\Wave1D\Wave1D.h">
+      <Filter>SubEffect\Wave1D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{410c445f-8827-459f-850a-f45cd1b0cacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect">
+      <UniqueIdentifier>{4769c47f-b94e-438a-9de3-d2ea43729595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{bad227f3-fcf5-4641-9520-63652ac7dfcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{bddfafe1-f53c-4cee-8f87-4c03ac0dfef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\ColorSprite">
+      <UniqueIdentifier>{e20b2137-5c0f-4dc3-b55d-34a5a2a6c3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\EmbossSprite">
+      <UniqueIdentifier>{a0ca968c-e210-4bff-8e8d-47be39882eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\RemoveBkSprite">
+      <UniqueIdentifier>{92ba22d5-db75-412c-87b9-fb93b99e6d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\RenderTexture">
+      <UniqueIdentifier>{5e268b1d-0724-4bea-ab25-3771daa021c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\RippleGrid3D">
+      <UniqueIdentifier>{86fb7607-16d1-42a0-a71e-d945a6f43c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\RippleSprite">
+      <UniqueIdentifier>{5de94ade-a031-4613-8437-6f47f5ef0245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\WaveSprite">
+      <UniqueIdentifier>{0a21120d-85a7-447a-9ff9-74b3b0a4ed51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\WaterWave">
+      <UniqueIdentifier>{c38546ad-611e-4bdd-91f4-d95bcd7ee73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\SpotLight">
+      <UniqueIdentifier>{81654c75-e586-4173-a6be-d0ce2b55ea24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\ActiveGrass">
+      <UniqueIdentifier>{cf851a5e-f540-4090-a600-2a6fe1ae1559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\ScratchOff">
+      <UniqueIdentifier>{b0a028dd-61a3-4f24-8bc1-428388d08639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\LaserLine">
+      <UniqueIdentifier>{1130c1be-2be3-4d8d-9fe3-860d95d1c5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\SuckAction">
+      <UniqueIdentifier>{12e24d5b-610f-400e-8e63-452e188eb6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\LabelShuffleTile">
+      <UniqueIdentifier>{467cbe21-b33d-42f1-9e9c-c78a8ded624e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\BlurTexture">
+      <UniqueIdentifier>{e1fecc34-1568-4120-abd9-70c5b51ddffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\ImageProcess">
+      <UniqueIdentifier>{f6336899-35e9-481d-bb13-34e5c763d61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\Distort[bug]">
+      <UniqueIdentifier>{31353123-cab7-4d1e-8c8e-cadfad36725a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEffect\Wave1D">
+      <UniqueIdentifier>{134af853-470e-4036-acfd-18d2fb32a3df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FKCocos2dxEffect.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
